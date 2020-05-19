@@ -1,4 +1,4 @@
-## [OpenGL Object](https://www.khronos.org/opengl/wiki/OpenGL_Object)
+### [OpenGL Object](https://www.khronos.org/opengl/wiki/OpenGL_Object)
 
 #### [glGenBuffers](https://www.khronos.org/registry/OpenGL-Refpages/es2.0/xhtml/glGenBuffers.xml)
 Basicamente retorna um buffer object.
@@ -20,6 +20,7 @@ Buffer objects carregam um array de memória linear de tamanho arbitrário. Esta
 void glBufferData(GLenum target, GLsizeiptr size, const void * data, GLenum usage);
 ```
 
+Essa função cria um novo data store para o buffer object previamente vinculado. Quando criando um novo armazenamento, qualquer armazenamento de dado pré-existente é deletado.
 
 
 
